@@ -14,7 +14,7 @@ dengan menggunakan cURL dan simple html dom.
 		$ch = curl_init();
 		$url="http://www.tiki-online.com/?cat=KgfdshfF7788KHfskF";
 		$post = "&get_ori=$dari&get_des=$ke&get_wg=$kg&submit=Check";
-		$chp = curl_init();
+		$ch = curl_init();
 		curl_setopt( $ch, CURLOPT_USERAGENT, $user_agent);
 		curl_setopt( $ch, CURLOPT_SSL_VERIFYHOST, 0 );
 		curl_setopt( $ch, CURLOPT_SSL_VERIFYPEER, 0 );
@@ -60,7 +60,7 @@ dengan menggunakan cURL dan simple html dom.
 			$ch = curl_init();
 			$url="http://www.jne.co.id/getDetailFare.php";
 			$post = "origin=$daric&dest=$kec&weight=$kg&originlabel=$darib&destlabel=$keb";
-			$chp = curl_init();
+			$ch = curl_init();
 			curl_setopt( $ch, CURLOPT_USERAGENT, $user_agent);
 			curl_setopt( $ch, CURLOPT_SSL_VERIFYHOST, 0 );
 			curl_setopt( $ch, CURLOPT_SSL_VERIFYPEER, 0 );
