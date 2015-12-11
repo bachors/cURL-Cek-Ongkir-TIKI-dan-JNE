@@ -46,4 +46,4 @@ Script untuk mengambil ongkir Tiki dan JNE langsung melalui web tiki-online.com 
 
 ?&gt;</pre>
 
-<p><ahref="http://ibacor.com/demo/cek-ongkir-tiki-jne" target="_BLANK">DEMO HTML</a> - <ahref="http://ibacor.com/api#bcr-ongkir" target="_BLANK">DEMO JSON</a></p>
+<p><a href="http://ibacor.com/demo/cek-ongkir-tiki-jne" target="_BLANK">DEMO HTML</a> - <a href="http://ibacor.com/api#bcr-ongkir" target="_BLANK">DEMO JSON</a></p>
