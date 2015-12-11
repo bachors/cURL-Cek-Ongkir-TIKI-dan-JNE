@@ -39,7 +39,7 @@
 			echo "<p>Dari: $dari<br>Ke: $ke<br>Berat (Kg): $kg</p>".tiki($dari,$ke,$kg,$user_agent);
 		}else if($service == 'jne'){
 			// menampilkan ongkir JNE
-			echo kota($dari,$ke,$kg,$user_agent);
+			echo jne($dari,$ke,$kg,$user_agent);
 		}
 	}
 
