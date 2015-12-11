@@ -40,7 +40,7 @@ Script untuk mengambil ongkir Tiki dan JNE langsung melalui web tiki-online.com 
             echo "&lt;p&gt;Dari: $dari&lt;br&gt;Ke: $ke&lt;br&gt;Berat (Kg): $kg&lt;/p&gt;".tiki($dari,$ke,$kg,$user_agent);
         }else if($service == 'jne'){
             // menampilkan ongkir JNE
-            echo kota($dari,$ke,$kg,$user_agent);
+            echo jne($dari,$ke,$kg,$user_agent);
         }
     }
 
