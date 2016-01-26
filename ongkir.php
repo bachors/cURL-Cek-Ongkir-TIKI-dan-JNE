@@ -13,7 +13,7 @@ dengan menggunakan cURL dan simple html dom.
 	function tiki($dari,$ke,$kg,$user_agent){
 		$ch = curl_init();
 		$url="http://www.tiki-online.com/?cat=KgfdshfF7788KHfskF";
-		$post = "&get_ori=$dari&get_des=$ke&get_wg=$kg&submit=Check";
+		$post = "&get_ori=$dari&get_des=$ke&get_wgdom=$kg&submit=Check";
 		curl_setopt( $ch, CURLOPT_USERAGENT, $user_agent);
 		curl_setopt( $ch, CURLOPT_SSL_VERIFYHOST, 0 );
 		curl_setopt( $ch, CURLOPT_SSL_VERIFYPEER, 0 );
